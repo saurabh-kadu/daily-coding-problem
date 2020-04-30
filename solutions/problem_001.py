@@ -11,4 +11,4 @@ def check_sums(array, k):
 assert not check_sums([], 17)
 assert check_sums([10, 15, 3, 7], 17)
 assert not check_sums([10, 15, 3, 4], 17)
-#learning git
+#learning githubdns
