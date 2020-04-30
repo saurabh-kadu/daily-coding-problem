@@ -22,9 +22,10 @@ def get_factors(array):
         else:
             num = right_prod_array[i - 1] * left_prod_array[i + 1]
         output_array.append(num)
-    
+
     return output_array
 
 
 assert get_factors([1, 2, 3, 4, 5]) == [120, 60, 40, 30, 24]
 assert get_factors([3, 2, 1]) == [2, 3, 6]
+#learning git
